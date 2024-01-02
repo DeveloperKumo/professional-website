@@ -1,5 +1,5 @@
-# professional-website
-Professional website made using GoFiber, HTMX, and TailwindCSS
+# profolio-website
+profolio website made using GoFiber, HTMX, and TailwindCSS
 
 Welcome to the Repository for my Personal Profolio Website
 
