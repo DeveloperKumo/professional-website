@@ -1,5 +1,5 @@
 # profolio-website
-profolio website made using GoFiber, HTMX, and TailwindCSS
+Profolio website made using GoFiber, HTMX, and TailwindCSS
 
 Welcome to the Repository for my Personal Profolio Website
 
