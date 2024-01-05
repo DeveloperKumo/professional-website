@@ -10,30 +10,37 @@
 
 <body class="bg-indigo-500">
 
-    <div class="navbar bg-indigo-900 shadow-xl">
-        <div class="flex-1"></div>
-        <div class="flex-2">
-            <ul class="menu overflow-x-hidden flex-nowrap menu-horizontal px-1 bg-indigo-900">
-                <li class="flex text-indigo-50 no-underline text-2xl">
-                    <a class="" href="/">Home</a>
-                </li>
-                <div class="divider divider-horizontal"></div>
-                <li class="flex text-indigo-50 no-underline text-2xl">
-                    <a class="" href="/projects">Projects</a>
-                </li>
-                <div class="divider divider-horizontal"></div>
+    <div class="hidden navbar justify-center bg-indigo-900 shadow-xl lg:visible lg:flex">
+        <ul class="menu overflow-x-hidden flex-nowrap menu-horizontal px-1 bg-indigo-900">
+            <li class="flex text-indigo-50 no-underline text-base md:text-2xl lg:text-4xl">
+                <a class="" href="/">Home</a>
+            </li>
+            <div class="divider divider-horizontal"></div>
+            <li class="flex text-indigo-50 no-underline text-base md:text-2xl lg:text-4xl">
+                <a class="" href="/projects">Projects</a>
+            </li>
+            <div class="divider divider-horizontal"></div>
 
-                <li class="flex text-indigo-50 no-underline text-2xl">
-                    <a class="" href="https://github.com/DeveloperKumo">Github</a>
-                </li>
-                <div class="divider divider-horizontal"></div>
+            <li class="flex text-indigo-50 no-underline text-base md:text-2xl lg:text-4xl">
+                <a class="" href="https://github.com/DeveloperKumo">Github</a>
+            </li>
+            <div class="divider divider-horizontal"></div>
 
-                <li class="flex text-indigo-50 no-underline text-2xl">
-                    <a class="" href="/contact">Contact</a>
-                </li>
-            </ul>
+            <li class="flex text-indigo-50 no-underline text-base md:text-2xl lg:text-4xl">
+                <a class="" href="/contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="navbar bg-base-100 shadow-xl rounded-box lg:hidden">
+        <div class="flex-none">
+            <button class="btn btn-square btn-ghost">
+                <span class="loading loading-puff"></span>
+          </button>
         </div>
     </div>
+
+
     </div>
     <div class="my-8 relative">
         <div class="box-content max-w-7xl float-right col-span-4 grid w-3/4 p-16 justify-center bg-indigo-100 shadow-lg">
